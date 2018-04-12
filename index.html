@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Lukas Cornille">
+  <title>Chuck-it</title>
+  <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/screen.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/smartphone-quotes.css" type="text/css">
+</head>
+
+<body>
+  <main>
+    <figure>
+      <img src="assets/media/chuck.png" alt="Image of Chuck Norris" title="Image of Chuck Norris"/>
+      <figcaption>
+        <p>Hello and welcome to the Chuck Norris quote and movie generator</p>
+        <p>What would you like to receive from Chuck?</p>
+      </figcaption>
+    </figure>
+    <div class="choice-buttons">
+      <a href="#" id="open-quote-modal">I'd like a quote</a>
+      <a href="movies.html">I'd like to see the movies</a>
+    </div>
+
+    <div id="modal-quote-options" class="modal hidden">
+      <div class="modal-content">
+        <div class="modal-info-text">
+          <p>Would you like a random quote or filter on a specific catogory?</p>
+          <a href="#" id="close-modal">X</a>
+        </div>
+        <div class="modal-option-buttons">
+          <a href="random-quote.html">I'm feeling lucky!</a>
+          <a href="filters-for-quotes.html">I'd rather filter</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>

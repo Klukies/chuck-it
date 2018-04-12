@@ -1,0 +1,6 @@
+@media only screen and (max-device-width: 1024px) {
+  nav img {
+    width: 150%;
+    z-index: 10;
+  }
+}

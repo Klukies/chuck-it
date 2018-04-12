@@ -1,0 +1,35 @@
+figcaption{
+  font-size: 3vh;
+}
+
+div a {
+  width: 20%;
+}
+
+ul{
+  margin-top: 1%;
+}
+
+li{
+  width: 20%;
+}
+
+#scroll-buttons{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+@media only screen and (max-device-width : 1024px){
+  figcaption{
+    font-size: 2vh;
+  }
+
+  figure img{
+    width: 256px;
+  }
+
+  li{
+    width: 50%;
+  }
+}

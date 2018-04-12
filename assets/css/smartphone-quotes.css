@@ -1,0 +1,36 @@
+@media only screen and (max-device-width : 1024px){
+  nav img{
+    width:10%;
+    z-index: 10;
+  }
+
+  figure img{
+    margin-bottom: 10%;
+  }
+
+  div.choice-buttons{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 2%;
+    width: 80%;
+  }
+
+  .choice-buttons a, .modal-option-buttons{
+    line-height: 150%;
+  }
+
+  div.modal-content{
+    position: absolute;
+    top: 25%;
+    height: 50%;
+  }
+
+  #close-modal{
+    height: 80%;
+  }
+
+  div.choice-buttons{
+
+  }
+}
